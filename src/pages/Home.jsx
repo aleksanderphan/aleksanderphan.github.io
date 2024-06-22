@@ -61,7 +61,7 @@ function Home() {
         <p>
           This website created using
           <a
-            href='https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor'
+            href='https://react.dev/'
             target='_blank'
             rel='noopener noreferrer'
             className='hover:text-cyan-600 font-semibold'
