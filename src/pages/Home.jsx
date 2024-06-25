@@ -64,7 +64,7 @@ function Home() {
             href='https://react.dev/'
             target='_blank'
             rel='noopener noreferrer'
-            className='hover:text-cyan-600 font-semibold'
+            className='text-cyan-600 font-semibold'
           >
             {''} React
           </a>
@@ -73,7 +73,7 @@ function Home() {
             href='https://tailwindcss.com/'
             target='_blank'
             rel='noopener noreferrer'
-            className='hover:text-cyan-600 font-semibold'
+            className='text-cyan-600 font-semibold'
           >
             {''} Tailwind CSS
           </a>
@@ -160,7 +160,11 @@ function Home() {
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
             />
             <h3 className='text-2xl font-bold mb-2'>This Website</h3>
-            <p className='text-gray-600 mb-4'>But, using Blazor ASP.NET Core</p>
+            <p className='text-gray-600 mb-4'>
+              But, using{' '}
+              <span className='text-purple-800 font-semibold'>Blazor</span>{' '}
+              ASP.NET Core
+            </p>
             <a
               href='https://github.com/aleksanderphan/blazor-test'
               target='_blank'
