@@ -14,11 +14,14 @@ function Home() {
 
   useEffect(() => {
     const links = document.querySelectorAll('a[href^="#"]');
-    links.forEach((link) => {
-      link.addEventListener('click', (event) => {
-        handleSmoothScroll(event, link.getAttribute('href'));
-      });
-    });
+    const handleScroll = (event) =>
+      handleSmoothScroll(event, event.target.getAttribute('href'));
+
+    links.forEach((link) => link.addEventListener('click', handleScroll));
+
+    return () => {
+      links.forEach((link) => link.removeEventListener('click', handleScroll));
+    };
   }, []);
 
   return (
@@ -59,23 +62,23 @@ function Home() {
           new things.
         </p>
         <p>
-          This website created using
+          This website created using{' '}
           <a
             href='https://react.dev/'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-cyan-600 font-semibold'
+            className='text-cyan-600 font-semibold hover:underline'
           >
-            {''} React
+            React
           </a>
-          {''} and
+          {''} and{' '}
           <a
             href='https://tailwindcss.com/'
             target='_blank'
             rel='noopener noreferrer'
-            className='text-cyan-600 font-semibold'
+            className='text-cyan-600 font-semibold hover:underline'
           >
-            {''} Tailwind CSS
+            Tailwind CSS
           </a>
           .
         </p>

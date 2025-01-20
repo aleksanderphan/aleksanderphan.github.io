@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Navbar() {
+const Navbar = React.memo(() => {
   return (
     <nav className='bg-white border-b border-gray-200'>
       <div className='max-w-7xl mx-auto px-6'>
@@ -16,6 +16,6 @@ function Navbar() {
       </div>
     </nav>
   );
-}
+});
 
 export default Navbar;
