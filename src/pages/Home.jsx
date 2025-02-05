@@ -158,18 +158,23 @@ function Home() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           <div className='bg-white p-6 rounded-lg shadow-lg'>
             <img
-              src='https://via.placeholder.com/1920x1080'
+              src='https://stock-watch-sand.vercel.app/'
               alt='Project Image'
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
             />
-            <h3 className='text-2xl font-bold mb-2'>This Website</h3>
+            <a
+              href='https://stock-watch-sand.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-2xl font-bold mb-2 hover:underline'
+            >
+              Stock Watch
+            </a>
             <p className='text-gray-600 mb-4'>
-              But, using{' '}
-              <span className='text-purple-800 font-semibold'>Blazor</span>{' '}
-              ASP.NET Core
+              IDX Stock Watcher (Work in Progress)
             </p>
             <a
-              href='https://github.com/aleksanderphan/blazor-test'
+              href='https://github.com/aleksanderphan/stock-watch'
               target='_blank'
               rel='noopener noreferrer'
               className='block bg-slate-800 hover:bg-slate-900 text-white py-2 px-4 rounded-lg transition duration-300 text-center'
@@ -183,12 +188,14 @@ function Home() {
               alt='Project Image'
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
             />
-            <h3 className='text-2xl font-bold mb-2'>Stock Prediction</h3>
+            <h3 className='text-2xl font-bold mb-2'>This Website</h3>
             <p className='text-gray-600 mb-4'>
-              IDX Stock Prediction Using Naive Bayes
+              But, using{' '}
+              <span className='text-purple-800 font-semibold'>Blazor</span>{' '}
+              ASP.NET Core
             </p>
             <a
-              href='https://github.com/aleksanderphan/saham'
+              href='https://github.com/aleksanderphan/blazor-test'
               target='_blank'
               rel='noopener noreferrer'
               className='block bg-slate-800 hover:bg-slate-900 text-white py-2 px-4 rounded-lg transition duration-300 text-center'
