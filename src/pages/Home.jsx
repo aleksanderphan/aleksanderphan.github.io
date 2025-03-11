@@ -163,7 +163,7 @@ function Home() {
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
             />
             <a
-              href='https://stock-watch-sand.vercel.app/'
+              href='https://stock-watch-idx.vercel.app/'
               target='_blank'
               rel='noopener noreferrer'
               className='text-2xl font-bold mb-2 hover:underline'
