@@ -105,11 +105,14 @@ function Home() {
                 <p className='text-lg text-gray-700'>VB.NET</p>
               </div>
               <div className='flex flex-col items-center'>
-                <i className='fab fa-js fa-2x mb-2 text-yellow-500'></i>
-                <p className='text-lg text-gray-700'>JavaScript</p>
+                <div className='flex flex-row items-center'>
+                  <i className='fab fa-t fa-2x mb-2 text-blue-600'></i>
+                  <i className='fab fa-s fa-2x mb-2 text-blue-600'></i>
+                </div>
+                <p className='text-lg text-gray-700'>TypeScript</p>
               </div>
               <div className='flex flex-col items-center'>
-                <i className='fas fa-database fa-2x mb-2 text-blue-600'></i>
+                <i className='fas fa-database fa-2x mb-2 text-yellow-600'></i>
                 <p className='text-lg text-gray-700'>SQL Server</p>
               </div>
             </div>
@@ -130,7 +133,7 @@ function Home() {
               </div>
               <div className='flex flex-col items-center'>
                 <i className='fab fa-react fa-2x mb-2 text-blue-600'></i>
-                <p className='text-lg text-gray-700'>React</p>
+                <p className='text-lg text-gray-700'>React/NextJS</p>
               </div>
               <div className='flex flex-col items-center'>
                 <i className='fab fa-node fa-2x mb-2 text-green-600'></i>
