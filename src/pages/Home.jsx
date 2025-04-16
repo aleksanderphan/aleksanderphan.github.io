@@ -161,7 +161,7 @@ function Home() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           <div className='bg-white p-6 rounded-lg shadow-lg'>
             <img
-              src='https://stock-watch-sand.vercel.app/'
+              src='https://stock-watch-idx.vercel.app/'
               alt='Project Image'
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
             />
