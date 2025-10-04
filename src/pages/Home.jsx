@@ -161,6 +161,41 @@ function Home() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           <div className='bg-white p-6 rounded-lg shadow-lg'>
             <img
+              src='t3ddit.png'
+              alt='Project Image'
+              className='w-full h-48 object-cover mb-4 rounded-t-lg'
+            />
+            <a
+              href='https://t3ddit.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-2xl font-bold mb-2 hover:underline'
+            >
+              T3ddit
+            </a>
+            <p className='text-gray-600 mb-4'>
+              A Reddit clone using{' '}
+              <a
+                className='hover:underline hover:cursor-pointer text-purple-800 font-semibold'
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://create.t3.gg/'
+              >
+                T3 stack
+              </a>
+            </p>
+            <a
+              href='https://t3ddit.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='block bg-slate-800 hover:bg-slate-900 text-white py-2 px-4 rounded-lg transition duration-300 text-center'
+            >
+              <i class='fa-solid fa-up-right-from-square mr-2'></i>
+              Visit website
+            </a>
+          </div>
+          <div className='bg-white p-6 rounded-lg shadow-lg'>
+            <img
               src='lantern.png'
               alt='Project Image'
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
