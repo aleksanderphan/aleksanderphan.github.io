@@ -161,7 +161,34 @@ function Home() {
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
           <div className='bg-white p-6 rounded-lg shadow-lg'>
             <img
-              src='https://stock-watch-idx.vercel.app/'
+              src='lantern.png'
+              alt='Project Image'
+              className='w-full h-48 object-cover mb-4 rounded-t-lg'
+            />
+            <a
+              href='https://three-lantern.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='text-2xl font-bold mb-2 hover:underline'
+            >
+              ThreeJS Tree & Lantern
+            </a>
+            <p className='text-gray-600 mb-4'>
+              Using ThreeJS and free Blender models
+            </p>
+            <a
+              href='https://three-lantern.vercel.app/'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='block bg-slate-800 hover:bg-slate-900 text-white py-2 px-4 rounded-lg transition duration-300 text-center'
+            >
+              <i class='fa-solid fa-up-right-from-square mr-2'></i>
+              Visit website
+            </a>
+          </div>
+          <div className='bg-white p-6 rounded-lg shadow-lg'>
+            <img
+              src='stock-watch.png'
               alt='Project Image'
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
             />
@@ -187,7 +214,7 @@ function Home() {
           </div>
           <div className='bg-white p-6 rounded-lg shadow-lg'>
             <img
-              src='https://via.placeholder.com/1920x1080'
+              src='blazor.png'
               alt='Project Image'
               className='w-full h-48 object-cover mb-4 rounded-t-lg'
             />
