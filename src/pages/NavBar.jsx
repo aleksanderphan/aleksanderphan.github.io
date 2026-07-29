@@ -1,20 +1,31 @@
 import React from 'react';
 
+const links = [
+  { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Contact', href: '#contact' },
+];
+
 const Navbar = React.memo(() => {
   return (
-    <nav className='bg-white border-b border-gray-200'>
-      <div className='max-w-7xl mx-auto px-6'>
-        <div className='relative flex items-center justify-between h-16'>
-          <div className='flex-1 flex items-center justify-center sm:items-stretch sm:justify-start'>
-            <div className='flex-shrink-0 mx-auto'>
-              <a className='text-2xl font-bold text-gray-800' href='#'>
-                Aleksander Phan
-              </a>
-            </div>
-          </div>
+    <header className='sticky top-0 z-50 border-b border-white/10 bg-slate-950/80 backdrop-blur-xl'>
+      <nav className='mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-4 py-4 sm:px-6 lg:px-8'>
+        <a href='#top' className='text-base font-semibold tracking-wide text-white sm:text-lg'>
+          Aleksander Phan
+        </a>
+        <div className='flex flex-wrap items-center justify-end gap-2 text-sm text-slate-300 sm:gap-6'>
+          {links.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              className='transition hover:text-white'
+            >
+              {link.label}
+            </a>
+          ))}
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 });
 
