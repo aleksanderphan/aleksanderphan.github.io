@@ -92,7 +92,7 @@ function Home() {
                 Building thoughtful digital experiences with modern tools.
               </h1>
               <p className='mt-6 text-base leading-8 text-slate-300 sm:text-lg'>
-                I’m Aleksander, a developer who enjoys turning ideas into useful,
+                I'm Aleksander, a developer who enjoys turning ideas into useful,
                 polished web apps while continuously learning and improving.
               </p>
               <div className='mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap'>
@@ -118,7 +118,7 @@ function Home() {
               <ul className='mt-6 space-y-4 text-slate-200'>
                 <li className='flex items-center gap-3'>
                   <span className='h-2.5 w-2.5 rounded-full bg-cyan-400' />
-                  React, TypeScript and Tailwind for polished frontends
+                  C#, .NET, React, TypeScript and Tailwind
                 </li>
                 <li className='flex items-center gap-3'>
                   <span className='h-2.5 w-2.5 rounded-full bg-fuchsia-400' />
@@ -158,7 +158,7 @@ function Home() {
             <div className='rounded-3xl border border-cyan-400/20 bg-cyan-400/10 p-8'>
               <h3 className='text-xl font-semibold text-white'>Tools I enjoy</h3>
               <p className='mt-4 text-slate-300'>
-                React, Tailwind CSS, TypeScript, .NET, and modern deployment workflows are where I spend most of my time.
+                C#, .NET, React, TypeScript, Tailwind CSS and modern deployment workflows are where I spend most of my time.
               </p>
             </div>
           </div>
@@ -243,7 +243,7 @@ function Home() {
               Contact
             </p>
             <h2 className='mt-3 text-3xl font-semibold text-white sm:text-4xl'>
-              Let’s build something meaningful together.
+              Let's build something meaningful together.
             </h2>
             <p className='mt-4 text-lg leading-8 text-slate-300'>
               If you want to connect, collaborate, or talk through an idea, feel free to reach out.
